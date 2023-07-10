@@ -1,0 +1,27 @@
+.nav-bar{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 15px;
+
+}
+
+.nav-bar a{
+    margin-right:50px;
+    color: rgb(249, 252, 255); 
+    text-decoration: none;
+    font-size:large;
+    font-weight: 600;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+
+}
+
+.nav-bar a:hover{
+    color: orange;
+    font-size: x-large;
+    font-weight: 900;
+}
