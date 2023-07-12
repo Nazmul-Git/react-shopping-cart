@@ -1,9 +1,8 @@
 .shop-container{
     display: grid;
     grid-template-columns: 4fr, 1fr;
-    display: flex;
-    
-    
+    display: flex;   
+    position: absolute;
 }
 
 .product-container{
@@ -12,3 +11,4 @@
     gap: 40px;
     margin: 100px 50px;
 }
+

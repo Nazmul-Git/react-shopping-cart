@@ -2,15 +2,11 @@
     height: 520px;
     width: 300px;
     border: 2px solid orange;
-    border-radius: 4px;
+    border-radius: 5px;
     position: relative;   
 }
 
-@media screen and (max-width:1100px) {
-    .product-container{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
+
 .product img{
     height: 280px;
     width: 280px;
@@ -57,3 +53,8 @@
     font-weight: 600;
 }
 
+@media screen and (max-width:1100px) {
+    .product-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
